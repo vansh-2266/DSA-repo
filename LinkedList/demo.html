@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div style="margin-top: 10%;">
+
+        <video controls width="360"  src="MyIntro_Vansh.mp4">
+        </video>
+
+        <figcaption>Roaring of a lion:</figcaption>
+
+        <audio controls src="audio.mp3">
+            Your browser is not supporting the <code>Audio</code> element.
+        </audio>
+
+        <p><cite>Mona Lisa</cite> Painting by Leonardo da Vinci </p>
+    </div>
+
+    <div>
+        <label for="cuisine">Select your favourite cuisine:</label>
+        <select  name="cuisine" id="cuisine">
+            <optgroup label="Indian Cuisine">
+            <option value="chola-bhature">Chola Bhature</option>
+            <option value="dahi-vada">Dahi Vada</option>
+            </optgroup>
+            <optgroup label="Italian Cuisine">
+            <option value="pizza">Pizza</option>
+            <option value="pasta">Pasta</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div>
+        <p>Her favourite colour is <del> green</del> <ins> magenta</ins>!</p>
+    </div>
+
+    <div>
+        <table>
+            <caption>Details about Tables in HTML</caption>
+            <thead>
+            <tr>
+             <th rowspan="5">HTML table's header</th>
+             <th rowspan="5">HTML table's header</th>
+             <th rowspan="5">HTML table's header</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+             <td>Table has 5 rows</td>
+             <td>Table has 5 rows</td>
+             <td>Table has 5 rows</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+             <td>Footer of the table </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+
+
+
+    <div>
+        <p>Demo of the datalist tag in HTML</p>
+        <form action="" method="get">
+        <label for="browser">Choose your favourite fruit from the list given below:</label>
+        <input list="fruits" name="fruit" id="fruit">
+        <datalist id="fruits">
+        <option value="Apple">
+        <option value="Orange">
+        <option value="Kiwi">
+        <option value="Pomegranate">
+        <option value="Dragon Fruit">
+        </datalist>
+        <input type="submit">
+        </form>
+    </div>
+
+    <div>
+        <form action="">
+            <fieldset>
+             <legend>Personal Information:</legend>
+             <label for="firstname">First name:</label>
+             <input type="text" id="firstname" name="firstname">
+             <label for="lastname">Last name:</label>
+             <input type="text" id="lastname" name="lastname">
+             <label for="emailId">Email Id:</label>
+             <input type="emailId" id="emailId" name="emailId">
+             <label for="birthday">Date of birth:</label>
+             <input type="date" id="birthday" name="birthday"><br><br>
+             <input type="submit" value="Submit">
+            </fieldset>
+            </form>
+    </div>
+</body>
+</html>
